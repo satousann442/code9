@@ -126,7 +126,7 @@ h1{
 .problem__txt{
   display: inline-block;
   text-align: left;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: bold;
 }
 
@@ -144,7 +144,7 @@ h1{
   }
 
   .problem__title{
-    font-size: 20px;
+    font-size: 26px;
     padding-top: 40%;
   }
 
@@ -287,7 +287,7 @@ h1{
   }
 
   .point__title{
-    font-size: 20px;
+    font-size: 26px;
     padding-top: 5%;
   }
 
@@ -424,7 +424,7 @@ h1{
   }
 
   .prof__title_1{
-    font-size: 20px;
+    font-size: 26px;
   }
 }
 
