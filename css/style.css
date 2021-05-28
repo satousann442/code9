@@ -14,21 +14,33 @@ body{
 header{
   background: url(../img/header_bg.png) no-repeat top center;
   background-size: cover;
-  height:80vh;
+  height:600px;
+  min-width: 1500px;
+}
+
+header .container{
+  padding-top:5%;
 }
 
 h1{
   text-align: center;
-  padding-top: 10%;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 25px;
+  padding: 1%;
+  /* margin:10% 0; */
+  border:solid 1px #ffffff;
+  width: 552px;
+  margin:0 auto;
+  background-color: #ffffff;
 }
 
 .header__subtitle{
   text-align: center;
   font-weight: bold;
-  font-size: 64px;
+  font-size: 50px;
   color: #ffffff;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .header__subtitle_1{
@@ -36,13 +48,12 @@ h1{
 }
 
 .header__subtitle_2{
-  font-size:92px ;
+  font-size:74px ;
 }
 
 .header__row{
   display: flex;
   justify-content: center;
-  padding-top: 5%;
 }
 
 @media screen and (max-width:768px){
@@ -51,14 +62,17 @@ h1{
     background: url("") no-repeat top center;
     background-color:#CC1558;;
     height:auto;
+    min-width: 0;
   }
 
   h1{
     font-size: 20px;
+    width: 55vw;
   }
 
   .header__subtitle{
     font-size: 40px;
+    padding-bottom: 3%;
   }
 
   .header__subtitle_1{
@@ -80,6 +94,7 @@ h1{
 .heading{
   background-color: #007FA8;
   height: auto;
+  min-width: 1500px;
 }
 
 .heading_title{
@@ -92,6 +107,13 @@ h1{
 
 .heading__content{
   text-align: center;
+}
+
+@media screen and (max-width:768px){
+
+  .heading{
+    min-width: 0px;
+  }
 }
 
 /* problem */
@@ -162,11 +184,11 @@ h1{
   .problem__txt{
     display: inline-block;
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
   }
 
-  .problem__contents{
+  .problem__contents {
     order:0;
   }
 }
