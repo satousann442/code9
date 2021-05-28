@@ -15,7 +15,7 @@ header{
   background: url(../img/header_bg.png) no-repeat top center;
   background-size: cover;
   height:600px;
-  min-width: 1500px;
+  /* min-width: 1500px; */
 }
 
 header .container{
@@ -56,7 +56,7 @@ h1{
   justify-content: center;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:992px){
 
   header{
     background: url("") no-repeat top center;
@@ -94,7 +94,7 @@ h1{
 .heading{
   background-color: #007FA8;
   height: auto;
-  min-width: 1500px;
+  /* min-width: 1500px; */
 }
 
 .heading_title{
@@ -109,7 +109,7 @@ h1{
   text-align: center;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:992px){
 
   .heading{
     min-width: 0px;
@@ -143,10 +143,12 @@ h1{
 
 .problem__content_sub img{
   padding-right: 2%;
+  width: 50px;
+  height: 50px;
 }
 
 .problem__txt{
-  display: inline-block;
+  display: inline;
   text-align: left;
   font-size: 26px;
   font-weight: bold;
@@ -156,7 +158,7 @@ h1{
   padding-left: 10%;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:992px){
 
   .problem{
     background-color: #F8F6F1;
@@ -235,7 +237,7 @@ h1{
   text-align: center;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:992px){
 
   .solution__item{
     flex-direction: column;
@@ -301,7 +303,7 @@ h1{
   text-align: left;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:992px){
 
   .point{
     background: url("") top center;
@@ -369,7 +371,7 @@ h1{
   color: #D7477C;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:992px){
 
   .voice__title{
     padding-top: 5%;
@@ -437,7 +439,7 @@ h1{
   font-weight: bold;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:992px){
 
   .prof{
     height: auto;
@@ -474,7 +476,7 @@ h1{
   padding-bottom: 5%;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:992px){
 
   .flow__title{
     padding-top: 0;
