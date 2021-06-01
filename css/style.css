@@ -126,6 +126,8 @@ h1{
   .heading__content{
     margin-top:0;
     margin-left: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
   }
 }
 
@@ -535,5 +537,7 @@ footer{
   .footer__content{
     margin-top:0;
     margin-left: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
   }
 }
